@@ -22,7 +22,6 @@ def parse_page(page_number, tables):
 
 def parse_table(caption, table):
     """Parse headings, remove notes and headings from table"""
-    table = table.df
     headings = parse_headings(table.head(1).to_numpy()[0])
     # Check if the first word in the first row from the bottom is NOTES
     first_word_of_last_row = table.tail(1).to_numpy()[0][0].split(":")[0]
