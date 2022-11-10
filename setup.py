@@ -7,13 +7,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="nvme-lint",
-    version="0.1.3",
+    version="0.1.4",
     author="Karl Bonde Torp",
     author_email="k.torp@samsung.com",
     description="Validate content of NVMe specification",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/OpenMPDK/nvme-lint",
+    url="https://github.com/linux-nvme/nvme-lint",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License",
