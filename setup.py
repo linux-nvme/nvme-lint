@@ -22,7 +22,8 @@ setup(
     python_requires='>=3.6',
     install_requires=[
         "camelot-py[cv]",
-        "pyyaml"
+        "pyyaml",
+        "pypdf2==2.12.1",
     ],
     package_dir={"": "./"},
     packages=find_packages(),
