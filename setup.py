@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="nvme-lint",
-    version="0.1.4",
+    version="0.1.5",
     author="Karl Bonde Torp",
     author_email="k.torp@samsung.com",
     description="Validate content of NVMe specification",
